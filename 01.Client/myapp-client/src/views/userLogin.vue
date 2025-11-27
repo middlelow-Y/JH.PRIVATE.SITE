@@ -1,9 +1,9 @@
 <template>
-  <div class="flex items-center justify-center min-h-screen">
-    <Card style="width: 25rem; overflow: hidden">
+  <div class="flex items-center justify-center min-h-screen bg-surface-100 dark:bg-surface-800">
+    <Card class="!bg-surface-0 dark:!bg-surface-900" style="width: 25rem; overflow: hidden">
       <template #header>
         <div class="flex justify-center">
-          <img src="../assets/images/moomin.png" style="width: 15rem; height: 15rem;"/>
+          <img src="../assets/images/moomin.png" style="width: 15rem; height: 15rem" />
         </div>
       </template>
       <template #title>

@@ -1,1 +1,6 @@
 @import "tailwindcss";
+@import 'tailwindcss-primeui';
+
+/* PrimeVue보다 Tailwind가 우선되도록 설정 */
+/* @layer primevue, tailwind; */
+@custom-variant dark (&:where(.dark-mode, .dark-mode *));
